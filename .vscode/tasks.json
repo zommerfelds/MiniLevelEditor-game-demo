@@ -2,9 +2,12 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "npm",
-			"script": "start",
-			"label": "npm: start",
+			"type": "shell",
+			"label": "Welcome",
+			"command": "bash",
+			"args": [
+				"${workspaceFolder}/.vscode/welcome.sh"
+			],
 			"problemMatcher": [],
 			"runOptions": {
 				"runOn": "folderOpen",

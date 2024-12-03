@@ -6,7 +6,7 @@
 	"forwardPorts": [
 		8080
 	],
-	"postCreateCommand": "npm install",
+	"postCreateCommand": "npm install && npm start",
 	"portsAttributes": {
 		"8080": {
 			"label": "Webpack"
