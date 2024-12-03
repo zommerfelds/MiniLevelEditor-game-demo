@@ -2,12 +2,9 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "Set up and run game",
 			"type": "shell",
-			"label": "Welcome",
-			"command": "bash",
-			"args": [
-				"${workspaceFolder}/.vscode/welcome.sh"
-			],
+			"command": "npm install && npm start",
 			"problemMatcher": [],
 			"runOptions": {
 				"runOn": "folderOpen",
